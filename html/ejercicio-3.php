@@ -2,7 +2,7 @@
 <?php include_once '../includes/navbar.php' ?>
 
 
-<main class="pb-4 pt-2" style="background-color: #333">
+<main class="pb-4 pt-0" style="background-color: #333">
 
   <div id="banner-puntuadas" class="row text-center container-fluid shadow mx-auto p-0" style="background-color: #000000">
     <img src="../img/banner-peliculas-puntuadas.png" alt="banner peliculas mejor puntuadas" class="img-fluid mx-auto p-0">

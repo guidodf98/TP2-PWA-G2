@@ -30,7 +30,7 @@ $(document).ready(function () {
           data-bs-slide-to="${numero}" 
           aria-current="true" 
           aria-label="Slide ${numero}">
-            <p class="mb-0">${pelicula.titulo}</p>
+            <p class="mb-0 text-white">${pelicula.titulo}</p>
         </button>
       `
       numero += 1;

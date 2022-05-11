@@ -1,5 +1,5 @@
 $( "#state" ).autocomplete({
-    source: getJsonInfo()
+    source: getJsonInfoEJ6()
 });
 
 function json2array(json){
@@ -11,12 +11,11 @@ function json2array(json){
     return result;
 }
 
-function getJsonInfo(){
+function getJsonInfoEJ6(){
 	var jsonData = $.ajax({
         url: "../js/tp-jquery/eje-6-data.json",
         dataType: 'json',
         async: false
     });
-    console.log(json2array(jsonData.responseJSON.provincias));
 return json2array(jsonData.responseJSON.provincias);
 }
