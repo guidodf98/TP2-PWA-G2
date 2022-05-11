@@ -46,7 +46,7 @@ $(document).ready(() => {
       if (movieData.poster_path != null) {
         imgurl = `https://image.tmdb.org/t/p/original${movieData.poster_path}`;
       } else {
-        imgurl = '../../img/noimg.png';
+        imgurl = '../img/noimg.png';
       }
       $('#movie-img').attr('src', `${imgurl}`);
       $('#title').append(movieData.title);
@@ -65,7 +65,7 @@ $(document).ready(() => {
         if (element.profile_path != null) {
           castimgurl = `https://image.tmdb.org/t/p/original${element.profile_path}`;
         } else {
-          castimgurl = '../../img/noimg.png';
+          castimgurl = '../img/noimg.png';
         }
         cont.append(`<li class="list-group-item p-0" style="width: 300px;">
                                             <div class="card text-white bg-secondary">

@@ -2,7 +2,7 @@
 <?php include_once '../includes/navbar.php' ?>
 
 <main class="pb-4 pt-0 text-white" style="background-color: #333">
-<!-- <main class="container bg-dark text-white-50 p-5"> -->
+  <!-- <main class="container bg-dark text-white-50 p-5"> -->
   <div id="header" class="row bg-dark container mx-auto">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">

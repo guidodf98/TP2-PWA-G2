@@ -1,9 +1,9 @@
 <?php include_once '../includes/head.php' ?>
 <?php include_once '../includes/navbar.php' ?>
 
-<main class="container bg-dark text-white-50 p-5">
+<main class="pb-4 pt-0 text-white-50 bg-dark">
 
-  <div id="header" class="row bg-dark">
+  <div id="header" class="row bg-dark container mx-auto">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32">
@@ -22,7 +22,7 @@
     </header>
   </div>
 
-  <div id="fila-1" class="row text-white bg-dark px-4 py-5 text-center shadow">
+  <div id="fila-1" class="row text-white bg-dark px-4 py-5 text-center shadow container mx-auto">
     <div class="py-5">
       <h1 class="display-5 fw-bold">Estrenos</h1>
       <div class="col-lg-6 mx-auto">
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="row px-4 mt-3">
+  <div class="row px-4 mt-3 container mx-auto">
     <div class="col-md-4">
       <select id="week-select" class="form-select" aria-label="week-select">
         <option selected>Seleccione una semana</option>
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container container mx-auto">
     <h1 id="no-content" class="text-center mt-5 text-muted">(Seleccione una película)</h1>
     <div id="table-info" class="row mt-3 d-none">
       <div class="col-md-4">
