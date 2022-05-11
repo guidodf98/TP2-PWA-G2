@@ -1,0 +1,92 @@
+main {
+  min-height: 80vh;
+}
+
+nav{
+  background-color: #231F20;
+}
+
+nav a{
+  color: #ffffff;
+
+}
+
+.icono-redes {
+  color: #FFCC40;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 10px;
+}
+
+#imagenes-nombres button {
+  background-color: #231F20;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+#banner-puntuadas img {
+  /* max-height: 400px; */
+  max-width: 1400px;
+  /* min-height: 240px; */
+}
+
+#imagenes-nombres {
+  overflow-y: scroll;
+  max-height: 700px;
+  overflow-x: hidden;
+
+}
+
+#portadas-peliculas img {
+  width: 100%;
+  max-height: 700px;
+  max-width: 488px;
+}
+
+
+.exe-div {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#fila-1 {
+  background-image: url("../img/heroLastEx.png");
+}
+
+#imagenes {
+  background-color: rgba(108, 117, 125, 0.25);
+}
+
+#imagenes-thumb img {
+  height: 150px;
+}
+
+#imagenes-nombres p {
+  color: var(--bs-primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.list-group-item.active {
+  border: 2.5px solid var(--bs-primary);
+}
+
+/* width */
+#imagenes-nombres::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+#imagenes-nombres::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+#imagenes-nombres::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+#imagenes-nombres::-webkit-scrollbar-thumb:hover {
+  background: rgb(168, 168, 168);
+}

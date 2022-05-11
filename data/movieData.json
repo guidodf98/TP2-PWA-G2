@@ -1,0 +1,148 @@
+{
+  "peliculas": [
+    {
+      "titulo": "Cadena Perpetua",
+      "portada": "../img/portadas-peliculas/cadena-perpetua.jpg",
+      "genero": ["Drama"],
+      "direccion": ["Frank Darabont"],
+      "guion": ["Stephen King","Frank Darabont"],
+      "reparto": ["Tim Robbins","Morgan Freeman","Bob Gunton"],
+      "anio": "1994",
+      "duracion": "2h 22min",
+      "puntuacion": "9,3/10",
+      "sinopsis": "Andy Dufresne es encarcelado por matar a su esposa y al amante de esta. Tras una dura adaptación, intenta mejorar las condiciones de la prisión y dar esperanza a sus compañeros."
+    },
+    {
+      "titulo": "El Padrino",
+      "portada": "../img/portadas-peliculas/el-padrino.jpg",
+      "genero": ["Drama","Crimen"],
+      "direccion": ["Francis Ford Coppola"],
+      "guion": ["Mario Puzo","Francis Ford Coppola"],
+      "reparto": ["Marlon Brando","Al Pacino","James Caan"],
+      "anio": "1972",
+      "duracion": "2h 55min",
+      "puntuacion": "9,2/10",
+      "sinopsis": "El envejecido patriarca de una dinastía del crimen organizado en la ciudad de Nueva York de la posguerra transfiere el control de su imperio clandestino a su reacio hijo menor."
+    },
+    {
+      "titulo": "El Caballero Oscuro",
+      "portada": "../img/portadas-peliculas/el-caballero-oscuro.jpg",
+      "genero": ["Drama","Crimen","Acción"],
+      "direccion": ["Christopher Nolan"],
+      "guion": ["Jonathan Nolan","Christopher Nolan","David S. Goyer"],
+      "reparto": ["Christian Bale","Heath Ledger","Aaron Eckhart"],
+      "anio": "2008",
+      "duracion": "2h 32min",
+      "puntuacion": "9,1/10",
+      "sinopsis": "Cuando la amenaza conocida como el Joker causa estragos y el caos en Gotham City, Batman debe aceptar una de las mayores pruebas psicológicas y físicas para luchar contra la injusticia."
+    },
+    {
+      "titulo": "El Padrino: Parte II",
+      "portada": "../img/portadas-peliculas/el-padrino-2.jpg",
+      "genero": ["Drama","Crimen"],
+      "direccion": ["Francis Ford Coppola"],
+      "guion": ["Francis Ford Coppola","Mario Puzo"],
+      "reparto": ["Al Pacino","Robert De Niro","Robert Duvall"],
+      "anio": "1994",
+      "duracion": "3h 22min",
+      "puntuacion": "9,3/10",
+      "sinopsis": "Se retratan los inicios de la vida y la carrera de Vito Corleone en el Nueva York de los años 20, mientras su hijo, Michael, amplía y refuerza su control sobre el sindicato del crimen familiar."
+    },
+    {
+      "titulo": "12 Hombres Sin Piedad",
+      "portada": "../img/portadas-peliculas/12-hombres-sin-piedad.jpg",
+      "genero": ["Drama","Crimen"],
+      "direccion": ["Sidney Lumet"],
+      "guion": ["Reginald Rose"],
+      "reparto": ["Henry Fonda","Lee J. Cobb","Martin Balsam"],
+      "anio": "1957",
+      "duracion": "1h 36min",
+      "puntuacion": "9,3/10",
+      "sinopsis": "Un miembro del jurado trata de evitar un error judicial obligando al resto del jurado a reconsiderar las pruebas."
+    },
+    {
+      "titulo": "La Lista De Schindler",
+      "portada": "../img/portadas-peliculas/la-lista-de-schindler.jpg",
+      "genero": ["Drama","Biografía","Historia"],
+      "direccion": ["Steven Spielberg"],
+      "guion": ["Thomas Keneally","Steven Zaillian"],
+      "reparto": ["Liam Neeson","Ralph Fiennes"],
+      "anio": "1993",
+      "duracion": "3h 15min",
+      "puntuacion": "9,0/10",
+      "sinopsis": "En la Polonia ocupada por los alemanes durante la Segunda Guerra Mundial, el industrial Oskar Schindler se preocupa por sus trabajadores judíos tras presenciar su persecución por los nazis."
+    },
+    {
+      "titulo": "El Señor De Los Anillos: El Retorno Del Rey",
+      "portada": "../img/portadas-peliculas/el-señor-de-los-anillos.jpg",
+      "genero": ["Acción","Aventura","Drama"],
+      "direccion": ["Peter Jackson"],
+      "guion": ["Peter Jackson","Fran Walsh","Philippa Boyens"],
+      "reparto": ["Elijah Wood","Viggo Mortensen","Ian McKellen"],
+      "anio": "2003",
+      "duracion": "3h 21min",
+      "puntuacion": "9,0/10",
+      "sinopsis": "Gandalf y Aragorn lideran el mundo de los hombres contra la armada de Sauron para distraer su atención de Frodo y Sam, quienes se aproximan al Monte del Destino con el Anillo Único."
+    },
+    {
+      "titulo": "Pulp Fiction",
+      "portada": "../img/portadas-peliculas/pulp-fiction.jpg",
+      "genero": ["Drama","Crimen"],
+      "direccion": ["Quentin Tarantino"],
+      "guion": ["Quentin Tarantino","Roger Avary"],
+      "reparto": ["John Travolta","Uma Thurman","Samuel L. Jackson"],
+      "anio": "1994",
+      "duracion": "2h 34min",
+      "puntuacion": "8,9/10",
+      "sinopsis": "Las vidas de dos mafiosos, un boxeador, la esposa de un gánster y un par de bandidos se entrelazan en cuatro historias de violencia y redención."
+    },
+    {
+      "titulo": "El Señor De Los Anillos: La Comunidad Del Anillo",
+      "portada": "../img/portadas-peliculas/el-señor-de-los-anillos-2.jpg",
+      "genero": ["Drama","Acción","Aventura"],
+      "direccion": ["Peter Jackson"],
+      "guion": ["J.R.R. Tolkien","Fran Walsh","Philippa Boyens"],
+      "reparto": ["Elijah Wood","Ian McKellen","Orlando Bloom"],
+      "anio": "2001",
+      "duracion": "2h 58min",
+      "puntuacion": "8,9/10",
+      "sinopsis": "Un hobbit de la Comarca y ocho compañeros emprenden un viaje para destruir el poderoso Anillo Único y salvar la Tierra Media del Señor Oscuro Sauron."
+    },
+    {
+      "titulo": "El Bueno, El Feo y El Malo",
+      "portada": "../img/portadas-peliculas/el-bueno-el-feo-y-el-malo.jpg",
+      "genero": ["Aventura","Western"],
+      "direccion": ["Sergio Leone"],
+      "guion": ["Luciano Vincenzoni","Sergio Leone","Agenore Incrocci"],
+      "reparto": ["Clint Eastwood","Eli Wallach","Lee Van Cleef"],
+      "anio": "1966",
+      "duracion": "3h 2min",
+      "puntuacion": "8,8/10",
+      "sinopsis": "Durante la Guerra de Secesión, tres cazarrecompensas se lanzan a la búsqueda de un tesoro que ninguno puede localizar sin la ayuda de los otros dos."
+    },
+    {
+      "titulo": "Forrest Gump",
+      "portada": "../img/portadas-peliculas/forest-gump.jpg",
+      "genero": ["Drama","Romance"],
+      "direccion": ["Robert Zemeckis"],
+      "guion": ["Winston Groom","Eric Roth"],
+      "reparto": ["Tom Hanks","Robin Wright","Gary Sinise"],
+      "anio": "1994",
+      "duracion": "2h 22min",
+      "puntuacion": "8,8/10",
+      "sinopsis": "Las presidencias de Kennedy y Johnson, los acontecimientos de Vietnam, el Watergate y otros eventos históricos se desarrollan a través de la perspectiva de un hombre de Alabama con un coeficiente intelectual de 75."
+    },
+    {
+      "titulo": "El Club De La Lucha",
+      "portada": "../img/portadas-peliculas/el-club-de-la-lucha.jpg",
+      "genero": ["Drama"],
+      "direccion": ["David Fincher"],
+      "guion": ["Chuck Palahniuk","Jim Uhls"],
+      "reparto": ["Brad Pitt","Edward Norton","Meat Loaf"],
+      "anio": "1999",
+      "duracion": "2h 19min",
+      "puntuacion": "8,8/10",
+      "sinopsis": "Un oficinista insomne y un desentendido fabricante de jabones forman un club de lucha clandestino que se convierte en mucho más."
+    }
+  ]
+}
