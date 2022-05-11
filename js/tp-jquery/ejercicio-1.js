@@ -19,7 +19,6 @@ $(document).ready(() => {
     var week = parseInt($('#week-select').val());
     if (!isNaN(week)) {
       var moviesThisWeek = getMovieByWeek(moviesData, week);
-      // console.log(moviesThisWeek);
       moviesThisWeek.forEach((element) => {
         $('#movie-select').append(`<option value="${element.id}">${element.title}</option>`);
       });
@@ -102,8 +101,6 @@ function getUpcomingMovies() {
   const apiUrl = `${apiBaseEJ1}movie/upcoming${apiKeyEJ1}&region=US`;
   var pages = getJsonInfo(apiUrl).total_pages;
   var allMovies = [];
-  console.log("va");
-  console.log(pages);
   for (var i = 1; i <= pages; i++) {
     var jsonData = $.ajax({
       url: `${apiUrl}&page=${i}`,

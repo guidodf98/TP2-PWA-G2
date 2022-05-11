@@ -1,6 +1,5 @@
 $('#username').on('change', function(){
   let pret = $(this).val();
-  console.log(pret);
   $.ajax({
       url: './contenido/ejercicio-4.php',
       dataType: 'json',
