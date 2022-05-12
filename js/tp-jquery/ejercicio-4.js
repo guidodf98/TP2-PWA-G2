@@ -22,6 +22,10 @@ $('#username').on('change', function(){
   });
 });
 
+$("#signup").select(function () { 
+  event.preventDefault()
+});
+
 $("#signup").validate({
     rules: {
       fullName: {
