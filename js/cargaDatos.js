@@ -14,7 +14,8 @@ $(document).ready(function () {
     });
 
   }
-
+  
+// CADENAS
   function cadenaListaPeliculas(peliculas) {
     cadena = "";
     numero = 0;

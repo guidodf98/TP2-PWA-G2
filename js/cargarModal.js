@@ -19,6 +19,8 @@ function cargarDatos(numPelicula) {
 
 }
 
+
+// CADENAS
 function cadenaInfoPelicula(pelicula) {
   return `
       <div class="modal-dialog modal-lg">
