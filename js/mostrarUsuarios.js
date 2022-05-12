@@ -83,13 +83,12 @@ function agregarUsuarios(desde, hasta) {
 
 // CADENAS
 function cadenaUsuarios(desde, hasta) {
-  let usuarios = getJsonArray("../data/usuarios.json");
   cadena = "";
   i = desde;
 
   while (i < hasta) {
-    if (typeof usuarios[i] !== 'undefined') {
-      cadena += cadenaUsuario(usuarios[i]);
+    if (typeof colUsuarios[i] !== 'undefined') {
+      cadena += cadenaUsuario(colUsuarios[i]);
     }
     i++;
   }
