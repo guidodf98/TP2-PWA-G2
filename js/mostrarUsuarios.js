@@ -20,6 +20,7 @@ pagSiguiente.click(function (e) {
 function actualizarTabla(desde, hasta) {
   pagAnterior.val(desde);
   pagSiguiente.val(hasta);
+  
   agregarUsuarios(desde, hasta);
   habilitarBotones();
   botonActivo(hasta);
