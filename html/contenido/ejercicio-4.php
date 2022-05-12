@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
 $data = $_GET['username'];
 
-$dataJson = file_get_contents('../../../js/tp-jquery/eje-4-data.json');
+$dataJson = file_get_contents('../../js/tp-jquery/eje-4-data.json');
 
 $decoded_json = json_decode($dataJson, true);
 

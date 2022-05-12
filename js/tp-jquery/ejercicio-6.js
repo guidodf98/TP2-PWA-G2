@@ -2,6 +2,8 @@ $( "#state" ).autocomplete({
     source: getJsonInfoEJ6()
 });
 
+$( "#ui-id-1").addClass("bg-white col-md-5");
+
 function json2array(json){
     var result = [];
     var keys = Object.keys(json);
