@@ -14,6 +14,8 @@
 
   <script src="../js/jquery/jquery-ui.js"></script>
   <script src="../js/tp-jquery/ejercicio-6.js"></script>
+
+  <script src="../js/toast/toastr.min.js"></script>
   </body>
 
   </html>

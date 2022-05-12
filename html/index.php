@@ -66,11 +66,11 @@
             <p id="overview"></p>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
               <ul id="cast-1" class="list-group list-group">
               </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-12">
               <ul id="cast-2" class="list-group list-group">
               </ul>
             </div>
